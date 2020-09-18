@@ -1,0 +1,70 @@
+@font-face { 
+  font-family: logan;
+  src: url("logan-font.otf");
+   }
+
+#main {
+  margin: 0 auto;
+  width: 960px; 
+  color: black;
+  height: 1000px;
+}
+.header {
+  height: 550px;
+  background: blue;
+  margin: 0 auto;
+  background: url("lion.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 5px;
+}
+.header h1 {
+color: white;
+font-family: logan;
+margin: 20px 0 0 40px; 
+}
+ 
+.header h2 {
+  font-size: 40px;
+  font-family: logan;
+}
+.title {
+  color: white;
+  width: 220px;
+  margin: 150px 0px 0 130px;
+}
+
+.title span {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 9px;
+  letter-spacing: 3px;  
+  color: #BDBDBD ;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.title p {
+  margin-top: 20px;
+  font-size: 10px;
+  color: #A4A4A4;
+}
+
+.pics {
+  margin: 125px 0 0 0;
+  background: green;
+  height: 80%;
+}
+
+.pics .first--article{
+  height: 250px;
+  width: 560px;
+  background: #01DF74;
+  margin: 0 200px 125px 200px;
+}
+
+.pics .second--article{
+  height: 250px;
+  width: 560px;
+  background: #31B404;
+  margin: 0 200px 125px 200px;
+}
